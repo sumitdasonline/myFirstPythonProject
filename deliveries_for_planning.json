@@ -1,4 +1,5 @@
-[
+{
+  "Deliveries_for_planning": [
   {
     "id": "482ddef5-7c9c-4253-8c7c-2a18b49ba8be",
     "algorithm_fields": {
@@ -60,3 +61,4 @@
     "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
   }
 ]
+}
