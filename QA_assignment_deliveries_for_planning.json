@@ -1,0 +1,62 @@
+[
+  {
+    "id": "482ddef5-7c9c-4253-8c7c-2a18b49ba8be",
+    "algorithm_fields": {
+      "stop_time": 1200,
+      "weight": 43
+    },
+    "geo_point": {
+      "latitude": 52.0099817,
+      "longitude": 5.0477485
+    },
+    "current_state": "planned",
+    "min_time": "2017-11-13T07:30:00.000000Z",
+    "max_time": "2017-11-13T13:00:00.000000Z",
+    "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+  },
+  {
+    "id": "60adbe31-d693-4dd7-8368-94545be514de",
+    "algorithm_fields": {
+      "stop_time": 720,
+      "weight": 64
+    },
+    "geo_point": {
+      "latitude": 51.8672914,
+      "longitude": 5.4028892
+    },
+    "current_state": "planned",
+    "min_time": "2017-11-13T07:30:00.000000Z",
+    "max_time": "2017-11-13T08:30:00.000000Z",
+    "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+  },
+  {
+    "id": "a69db991-0e76-4377-868a-9c428dbaf7b1",
+    "algorithm_fields": {
+      "stop_time": 95,
+      "weight": 12
+    },
+    "geo_point": {
+      "latitude": 5.4028892,
+      "longitude": 51.8672914
+    },
+    "current_state": "errored",
+    "min_time": "2017-11-13T07:30:00.000000Z",
+    "max_time": "2017-11-13T13:00:00.000000Z",
+    "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+  },
+  {
+    "id": "a69db991-0e76-4377-868a-9c428dbaf7b1",
+    "algorithm_fields": {
+      "stop_time": 720,
+      "weight": 64
+    },
+    "geo_point": {
+      "latitude": 51.8672914,
+      "longitude": 5.4028892
+    },
+    "current_state": "planned",
+    "min_time": "2017-11-13T07:30:00.000000Z",
+    "max_time": "2017-11-13T13:00:00.000000Z",
+    "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+  }
+]

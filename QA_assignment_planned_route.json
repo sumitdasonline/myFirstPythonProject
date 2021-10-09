@@ -1,0 +1,105 @@
+{
+  "planned_route": {
+    "id": "0cd60461-52e8-470d-adba-909f52a99f47",
+    "route_min_time": "2017-11-13T07:30:00.000000Z",
+    "route_max_time": "2017-11-13T13:30:00.000000Z",
+    "deliveries": [
+      {
+        "id": "158387cc-50cd-41d5-babc-23f7dc4d39ff",
+        "algorithm_fields": {
+          "stop_time": 2700,
+          "time_to_next": 917,
+          "eta": "2017-11-13T07:00:00.000000Z",
+          "type": "depot"
+        },
+        "geo_point": {
+          "latitude": 52.123623,
+          "longitude": 5.051931
+        },
+        "min_time": "2017-11-13T07:00:00.000000Z",
+        "max_time": "2017-11-13T07:45:00.000000Z",
+        "current_state": "planned",
+        "delivery_order_index": 0,
+        "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+      },
+      {
+        "id": "482ddef5-7c9c-4253-8c7c-2a18b49ba8be",
+        "algorithm_fields": {
+          "stop_time": 1200,
+          "eta": "2017-11-13T08:00:17.000000Z",
+          "weight": 43,
+          "time_to_next": 1971,
+          "type": "delivery"
+        },
+        "geo_point": {
+          "latitude": 52.0099817,
+          "longitude": 5.0477485
+        },
+        "min_time": "2017-11-13T07:30:00.000000Z",
+        "max_time": "2017-11-13T13:00:00.000000Z",
+        "current_state": "planned",
+        "delivery_order_index": 1,
+        "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+      },
+      {
+        "id": "60adbe31-d693-4dd7-8368-94545be514de",
+        "algorithm_fields": {
+          "stop_time": 720,
+          "eta": "2017-11-13T08:53:08.000000Z",
+          "weight": 64,
+          "type": "delivery",
+          "time_to_next": 0
+        },
+        "geo_point": {
+          "latitude": 51.8672914,
+          "longitude": 5.4028892
+        },
+        "min_time": "2017-11-13T07:30:00.000000Z",
+        "max_time": "2017-11-13T08:30:00.000000Z",
+        "current_state": "planned",
+        "delivery_order_index": 2,
+        "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+      },
+      {
+        "id": "a69db991-0e76-4377-868a-9c428dbaf7b1",
+        "algorithm_fields": {
+          "stop_time": 720,
+          "eta": "2017-11-13T09:05:08.000000Z",
+          "weight": 64,
+          "time_to_next": 3006,
+          "type": "delivery"
+        },
+        "geo_point": {
+          "latitude": 51.8672914,
+          "longitude": 5.4028892
+        },
+        "min_time": "2017-11-13T07:30:00.000000Z",
+        "max_time": "2017-11-13T13:00:00.000000Z",
+        "current_state": "planned",
+        "delivery_order_index": 3,
+        "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+      },
+      {
+        "id": "63ff95fa-98b1-40f5-9711-b22c4dfdcd27",
+        "algorithm_fields": {
+          "stop_time": 0,
+          "eta": "2017-11-13T10:30:20.000000Z",
+          "type": "depot"
+        },
+        "geo_point": {
+          "latitude": 52.123623,
+          "longitude": 5.051931
+        },
+        "min_time": "2017-11-13T07:45:00.000000Z",
+        "max_time": "2017-11-13T13:30:00.000000Z",
+        "current_state": "planned",
+        "delivery_order_index": 4,
+        "bucket": "85812fcb-e272-476f-aa43-17b8c773ff10"
+      }
+    ],
+    "resource": {
+      "id": "1fc62bce-5198-4a1d-9f73-b78cb7ddbd8e",
+      "carrying_capacity": 180
+    }
+  }
+}
