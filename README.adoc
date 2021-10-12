@@ -1,0 +1,25 @@
+= My first Python Project
+Firstname Lastname <author@asciidoctor.org>
+3.0, July 29, 2022: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+This is my first Python project
+
+
+== Preparation
+* Install JSON server by using the following `npm install -g json-server`
+
+** Source Read: https://github.com/typicode/json-server
+
+* Start the mock REST service:
+** `json-server --watch deliveries_for_planning.json` -- This should default to port 3000
+** `json-server --watch deliveries_for_planning.json --port 3001` -- Should change the port as default port is already in use
+* Install `Python`, `PIP` and then `Request`, `jsonpath_rw`, `json`
+
+== Test
+
+* You can run the test by following:
+
+** pytest -rF
