@@ -14,7 +14,8 @@ This is my first Python project
 ** Source Read: https://github.com/typicode/json-server
 
 * Start the mock REST service:
-** `json-server --watch deliveries_for_planning.json` -- This should default to port 3000
+** `json-server --watch planned_route.json
+` -- This should default to port 3000
 ** `json-server --watch deliveries_for_planning.json --port 3001` -- Should change the port as default port is already in use
 * Install `Python`, `PIP` and then `Request`, `jsonpath_rw`, `json`
 
